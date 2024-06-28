@@ -9,7 +9,7 @@ public class Animal {
 	/////Methods
 	public void makeNoise()
 	{
-		System.out.println("Animal Noise");
+		System.out.println("Animal Noise, should probably be a real animal noise");
 	}
 	
 	
