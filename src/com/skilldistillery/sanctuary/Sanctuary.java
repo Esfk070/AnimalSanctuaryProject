@@ -7,9 +7,9 @@ public class Sanctuary {
 	
 	
 	///////Methods
-	public void setAttendant()
+	public void setAttendant(Attendant attend)
 	{
-		willy = new Attendant();
+		this.willy = attend;
 	}
 	
 	public void listAnimals()
