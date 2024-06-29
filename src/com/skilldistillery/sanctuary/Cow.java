@@ -10,13 +10,13 @@ public class Cow extends Animal {
 	@Override
 	public void makeNoise()
 	{
-		System.out.println(noise);
+		System.out.println(this.noise);
 		
 	}
 	
-	public void eat(int amountOfFood) 
+	public String eat(int amountOfFood) 
 	{
-		System.out.println(noise + " I love eathing these " 
+		return(noise +"\n"+ "I love eating these " 
 										+ amountOfFood + " bails of hay");
 	}
 	

@@ -13,9 +13,9 @@ public class Animal {
 	}
 	
 	
-	public void eat(int amountOfFood) {
+	public String eat(int amountOfFood) {
 	
-		System.out.println("I'm eating " + amountOfFood + " foods");
+		return("I'm eating " + amountOfFood + " foods");
 	}
 	
 	////Getters and Setters

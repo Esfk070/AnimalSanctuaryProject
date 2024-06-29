@@ -14,9 +14,9 @@ public class Lion extends Animal
 		
 	}
 	
-	public void eat(int amountOfFood) 
+	public String eat(int amountOfFood) 
 	{
-		System.out.println(noise + " I love eathing these " 
+		return(noise +"\n"+ "I love eating these " 
 										+ amountOfFood + " steaks");
 	}
 	
