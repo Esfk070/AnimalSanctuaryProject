@@ -1,25 +1,18 @@
 package com.skilldistillery.sanctuary;
 
-public class Lion extends Animal  
-{
-	/////Fields
+public class Lion extends Animal {
+	///// Fields
 	private static String noise = "ROAAAAARRRRR";
-	
 
-	//////Methods
+	////// Methods
 	@Override
-	public void makeNoise()
-	{
+	public void makeNoise() {
 		System.out.println(noise);
-		
+
 	}
-	
-	public void eat(int amountOfFood) 
-	{
-		System.out.println((noise +"\n"+ "I love eating these " 
-				+ amountOfFood + " steaks"));
+
+	public void eat(int amountOfFood) {
+		System.out.println((noise + "\n" + "I love eating these " + amountOfFood + " steaks"));
 	}
-	
-	
 
 }
