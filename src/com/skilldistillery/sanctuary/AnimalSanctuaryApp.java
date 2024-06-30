@@ -3,7 +3,7 @@ package com.skilldistillery.sanctuary;
 import java.util.Scanner;
 
 public class AnimalSanctuaryApp {
-	public Sanctuary sanctuary;
+	private Sanctuary sanctuary;
 	
 	private Scanner scanner;
 	
@@ -19,7 +19,7 @@ public class AnimalSanctuaryApp {
 		
 	}
 	/////Methods
-	public void launchApp() {
+	private void launchApp() {
 		sanctuary = new Sanctuary();
 		
 		Attendant attend = new Attendant();

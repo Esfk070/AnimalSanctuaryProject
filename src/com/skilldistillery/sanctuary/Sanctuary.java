@@ -2,8 +2,11 @@ package com.skilldistillery.sanctuary;
 
 public class Sanctuary {
 	//////Fields
-	Animal[] animalArray = new Animal[5];
-	Attendant willy;
+	private Animal[] animalArray = new Animal[5];
+	// animalArray = new Animal[5];
+	//animalArray = new Animal[5];
+	//Animal[] animalArray = new Animal[5];
+	private Attendant willy;
 	
 	
 	///////Methods

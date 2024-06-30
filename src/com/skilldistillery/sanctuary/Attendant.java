@@ -12,7 +12,8 @@ public class Attendant {
 			if (animalArray[i] != null)
 			{
 				System.out.println("I will feed " + animalArray[i].getName() + " " + num + " foods "+ "\n"
-						+ animalArray[i].eat(num));						///START HERE
+						);
+				animalArray[i].eat(num);
 				System.out.println();
 			}
 			else

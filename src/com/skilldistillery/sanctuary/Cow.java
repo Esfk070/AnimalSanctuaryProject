@@ -14,10 +14,10 @@ public class Cow extends Animal {
 		
 	}
 	
-	public String eat(int amountOfFood) 
+	public void eat(int amountOfFood) 
 	{
-		return(noise +"\n"+ "I love eating these " 
-										+ amountOfFood + " bails of hay");
+		System.out.println((noise +"\n"+ "I love eating these " 
+				+ amountOfFood + " bails of hay"));
 	}
 	
 	

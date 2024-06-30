@@ -13,11 +13,10 @@ public class Duck extends Animal {
 		
 	}
 	
-	public String eat(int amountOfFood) 
+	public void eat(int amountOfFood) 
 	{
-		String ans =  noise + "\n"+ "I love eating these " 
-										+ amountOfFood + " seeds";
-		return ans;
+		System.out.println(noise + "\n"+ "I love eating these " 
+				+ amountOfFood + " seeds");
 	}
 	
 	
